@@ -7,7 +7,7 @@
 * [Keyrolled: Kernver 6](#keyrolled-kernver-6)
 * [USB-less Exploits](#usb-less-exploits)
 * [Payloads](#payloads)
-* [Links](#Links)
+* [Links](#links)
 
 > [!WARNING]
 > I am not held responsible for ANY trouble you get in using this repo
@@ -98,7 +98,8 @@ There are five methods, : https://github.com/crosbreaker/badbr0ker or Visit http
 
 <img width="3024" height="4032" alt="badrecovery" src="https://github.com/user-attachments/assets/67461f1c-d6e1-4728-8f4f-41bda4aedfc3" />
 
-# Links (Kept for Archival purposes)
+# Links 
+# (Kept for Archival Purposes)
 
 # SH1MMER: https://github.com/MercuryWorkshop/sh1mmer
 # Cryptosmite: https://github.com/FWNavy/CryptoSmite
