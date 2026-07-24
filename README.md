@@ -7,7 +7,7 @@
 * [Keyrolled: Kernver 6](#keyrolled-kernver-6)
 * [USB-less Exploits](#usb-less-exploits)
 * [Payloads](#payloads)
-* [Links](#links)
+* [Links](#Links)
 
 > [!WARNING]
 > I am not held responsible for ANY trouble you get in using this repo
