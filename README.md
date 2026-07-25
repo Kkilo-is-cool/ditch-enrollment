@@ -35,8 +35,8 @@ so head over to: https://dl.snerill.org/Daub then download the shim correspondin
 and download that, afer thats done head over to, the BadRecovery Web Builder: https://binbashbanana.github.io/badrecovery/ and then you'll get a .bin file (then flash the .bin file onto the usb via Chromebook Recovery Utility.) and yeah! you should be unenrolled now!
 
 
-# KERNVER 4, v130 ICARUS : so i think from my understanding, icarus is a bit different. You gotta unenroll via usb via shim then you spoof with an ip.
-So head over to here: https://dl.snerill.org/icarus to get your RMA shim (Corresponding to your Boardname)
+# KERNVER 4, v130 ICARUS:
+So head over to here: https://dl.snerill.org/icarus to get your RMA shim (Corresponding to your Board Name)
 So after you unenroll go to WiFi-Settings, then Change the Proxy Type to Manual. And to Host your own proxy here: https://www.youtube.com/watch?v=trqwRNPcVV4
 AND AFTER HOSTING ICARUS ON YOUR OWN COMPUTER, MAKE SURE TO THAT After unenrolling change back to direct internet connection in proxy settings
 
