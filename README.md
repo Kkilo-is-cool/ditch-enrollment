@@ -42,7 +42,7 @@ Then plug in Your USB Drive, and Hooray!!! You should Be Unenrolled Now!
 so head over to: https://dl.snerill.org/Daub then download the shim corresponding to your boardname, then flash onto USB via Chromebook Recovery Utility, then press and hold down the keys: (esc+refresh+power) then plug in your USB drive then just wait. Then you should be unenrolled now! Hooray!
 
 # KERNVER 3, v124 OlyBmmer: so first get a RECOVERY IMAGE, NOT AN RMA SHIM:  [CROS.DOWNLOAD](https://cros.download/recovery)
-and download that, afer thats done head over to, the BadRecovery Web Builder: https://binbashbanana.github.io/badrecovery/ and then you'll get a .bin file then flash the .bin file onto The USB Via [Chromebook Recovery Utility](https://chromewebstore.google.com/detail/chromebook-recovery-utili/pocpnlppkickgojjlmhdmidojbmbodfm?hl=en) then  press the keys: (esc+refesh+power) and Then: Plug in Your USB Drive and then just wait, Then you should be unenrolled now! Hooray!
+and download that, afer thats done head over to, the BadRecovery Web Builder: https://binbashbanana.github.io/badrecovery/ and then you'll get a BadRecovery .bin file then flash that .bin file onto The USB Via [Chromebook Recovery Utility](https://chromewebstore.google.com/detail/chromebook-recovery-utili/pocpnlppkickgojjlmhdmidojbmbodfm?hl=en) then  press the keys: (esc+refesh+power) and Then: Plug in Your USB Drive and then just wait, Then you should be unenrolled now! Hooray!
 
 
 # KERNVER 4, v130 ICARUS:
