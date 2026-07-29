@@ -26,7 +26,7 @@ then after you download your shim (corresponding to your boardname) head over to
 # KERNVER 2, v120 CRYPTOSMITE:
 so head over to: https://github.com/FWNavy/CryptoSmite/blob/main/cryptosmite.md
 and download the stateful.tar.xz and st.tar.xz files.
-then use [Wax4Web}(https://sh1mmer.me/builder) to get a injected-shim.bin file and then flash onto Your USB Via, [Chromebook Recovery Utility](https://chromewebstore.google.com/detail/chromebook-recovery-utili/pocpnlppkickgojjlmhdmidojbmbodfm?hl=en) then select use local image.
+then use [Wax4Web](https://sh1mmer.me/builder) to get a injected-shim.bin file and then flash onto Your USB Via, [Chromebook Recovery Utility](https://chromewebstore.google.com/detail/chromebook-recovery-utili/pocpnlppkickgojjlmhdmidojbmbodfm?hl=en) then select use local image.
 
 <img width="792" height="538" alt="image" src="https://github.com/user-attachments/assets/cef135d4-ef65-4d54-92ea-b7c01568ed78" />
 
@@ -42,7 +42,7 @@ Then plug in Your USB Drive, and Hooray!!! You should Be Unenrolled Now!
 so head over to: https://dl.snerill.org/Daub then download the shim corresponding to your boardname, then flash onto USB via Chromebook Recovery Utility, then press and hold down the keys: (esc+refresh+power) then plug in your USB drive then just wait. Then you should be unenrolled now! Hooray!
 
 # KERNVER 3, v124 OlyBmmer: so first get a RECOVERY IMAGE, NOT AN RMA SHIM:  [CROS.DOWNLOAD](https://cros.download/recovery)
-and download that, afer thats done head over to, the BadRecovery Web Builder: https://binbashbanana.github.io/badrecovery/ and then you'll get a .bin file (then flash the .bin file onto the usb via Chromebook Recovery Utility.) and yeah! you should be unenrolled now!
+and download that, afer thats done head over to, the BadRecovery Web Builder: https://binbashbanana.github.io/badrecovery/ and then you'll get a .bin file then flash the .bin file onto The USB Via [Chromebook Recovery Utility](https://chromewebstore.google.com/detail/chromebook-recovery-utili/pocpnlppkickgojjlmhdmidojbmbodfm?hl=en) then  press the keys: (esc+refesh+power) and Then: Plug in Your USB Drive and then just wait, Then you should be unenrolled now! Hooray!
 
 
 # KERNVER 4, v130 ICARUS:
