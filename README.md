@@ -26,7 +26,17 @@ then after you download your shim (corresponding to your boardname) head over to
 # KERNVER 2, v120 CRYPTOSMITE:
 so head over to: https://github.com/FWNavy/CryptoSmite/blob/main/cryptosmite.md
 and download the stateful.tar.xz and st.tar.xz files.
-then use wax4web to get a injected-shim.bin file and then (im not gonna explain again, just do the steps from SH1MMER to flash on the usb and shit like that..) and yeah, you should be unenrolled now!
+then use [Wax4Web}(https://sh1mmer.me/builder) to get a injected-shim.bin file and then flash onto Your USB Via, [Chromebook Recovery Utility](https://chromewebstore.google.com/detail/chromebook-recovery-utili/pocpnlppkickgojjlmhdmidojbmbodfm?hl=en) then select use local image.
+
+<img width="792" height="538" alt="image" src="https://github.com/user-attachments/assets/cef135d4-ef65-4d54-92ea-b7c01568ed78" />
+
+Then just wait for the image to finish Downloading and then press the keys: (esc+refresh+power) and you should see this screen: 
+
+<img width="1347" height="1000" alt="image" src="https://github.com/user-attachments/assets/c9915277-1e28-4202-8348-7c1576b81ffd" />
+
+Then plug in Your USB Drive, and Hooray!!! You should Be Unenrolled Now!
+
+
 
 # KERNVER 2: DAUB:
 so head over to: https://dl.snerill.org/Daub then download the shim corresponding to your boardname, then flash onto USB via Chromebook Recovery Utility, then press and hold down the keys: (esc+refresh+power) then plug in your USB drive then just wait. Then you should be unenrolled now! Hooray!
