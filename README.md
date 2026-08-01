@@ -18,7 +18,7 @@
 
 # Unenrollment
 
-# KERNVER 1-2, v110 SH1MMER:
+# KERNVER 1, v110 SH1MMER:
 so first head over to: [CROS.DOWNLOAD](https://cros.download/shims) and download your Chromebook Board name you can find it by heading over to chrome://version.
 then after you download your shim (corresponding to your boardname) head over to here: [Wax4Web](https://sh1mmer.me/builder). then it downloads a .bin file, named something like (injected-shim.bin) then you use [Chromebook Recovery Utility](https://chromewebstore.google.com/detail/chromebook-recovery-utili/pocpnlppkickgojjlmhdmidojbmbodfm?hl=en) to flash the injected-shim onto the USB drive. then you press, esc+refesh+power and then hit ctrl+d then press esc+refresh+power again and then plug in your USB drive and then once your in the sh1mmer payload select Unenroll!
 
@@ -38,7 +38,7 @@ Then plug in Your USB Drive, and Hooray!!! You should Be Unenrolled Now!
 
 
 
-# KERNVER 2: DAUB:
+# KERNVER: ALL KERNVERS: DAUB:
 so head over to: https://dl.snerill.org/Daub then download the shim corresponding to your boardname, then flash onto USB via Chromebook Recovery Utility, then press and hold down the keys: (esc+refresh+power) then plug in your USB drive then just wait. Then you should be unenrolled now! Hooray!
 
 # KERNVER 3, v124 OlyBmmer: so first get a RECOVERY IMAGE, NOT AN RMA SHIM:  [CROS.DOWNLOAD](https://cros.download/recovery)
