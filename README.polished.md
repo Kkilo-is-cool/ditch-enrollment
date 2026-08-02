@@ -41,10 +41,22 @@ or more complicatedly, find your customization ID in the "Diagnostics" app and s
 
 ![Partial screenshot of the RMA Shims page, with the header and a few board shims visible.](/images/crOS.download_RMA_Shims_page.png)
 
-2. Download the ZIP archive with your board name
+2. Download the ZIP archive with your board name (in my case, `dedede`)
 
-then after you download your shim (corresponding to your boardname) head over to here: [Wax4Web](https://sh1mmer.me/builder). then it downloads a .bin file, named something like (injected-shim.bin) then you use [Chromebook Recovery Utility](https://chromewebstore.google.com/detail/chromebook-recovery-utili/pocpnlppkickgojjlmhdmidojbmbodfm?hl=en) to flash the injected-shim onto the USB drive. then you press, esc+refesh+power and then hit ctrl+d then press esc+refresh+power again and then plug in your USB drive and then once your in the sh1mmer payload select Unenroll!
+![Partial screenshot of the RMA Shims page and the in-built Chrome search function, with the search query "dedede" already typed in.](/images/searching_for_dedede_in_crOS.download-shims.png)
 
+4. After downloading your corresponding shim, open the [Wax4Web](https://sh1mmer.me/builder) builder.
+  - After finishing, Wax4Web will (try to) download a file with the name `injected-shim.bin`. It's better practice to rename the file to something like `sh1mmer-dedede.bin` for example, if you're doing this on multiple boards, or just want to use the image in the future without going through the building process all over again.
+
+5. You'll now need to flash the shim to a USB stick. This can be done with any program that takes in ISOs, since `.bin`s, `.img`s and `.iso`s are all the same in this situation. (don't take this at face value!) You can use [Rufus](https://rufus.ie), [Balena Etcher](https://etcher.balena.io/), or if you did this process on a Chromebook with unblocked extensions, you can use the [Chromebook Recovery Utility](https://chromewebstore.google.com/detail/chromebook-recovery-utili/pocpnlppkickgojjlmhdmidojbmbodfm).
+
+6. After the USB stick is fully flashed, you'll connect the newly-flashed USB stick to your Chromebook (if it isn't already), and boot into the shim. The process is simple, you'll first enter Recovery Mode by pressing `Esc+⟳+⏻` (`Esc +  Refresh + Power`), then enter Developer Mode (`Ctrl+D` → `Enter`). If all goes well, you should see this screen:
+
+![An image of the "Developer Mode is blocked by policy" screen](/images/dev_mode_is_disabled_by_policy.jpeg)
+
+You'll then use the key combo to enter Recovery Mode once again, and you should boot into SH1MMER.
+
+After that, you can select the "Unenroll" option, but you can also choose any other payload you desire.
 
 # KERNVER 2, v120 CRYPTOSMITE:
 so head over to: https://github.com/FWNavy/CryptoSmite/blob/main/cryptosmite.md
