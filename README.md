@@ -1,5 +1,8 @@
-# ditch-enrollment
-# A guide on how to UNENROLL ALL CHROMEBOOKS ON DIFFERENT KERNVERS
+# NOTICE
+This polished version is still in the making. Please be patient!!
+
+# Ditch Enrollment
+A guide on how to unenroll Chromebooks with different kernel versions.
 
 ## Table of Contents:
 * [Unenrollment](#unenrollment)
@@ -12,6 +15,29 @@
 > [!WARNING]
 > I am not held responsible for ANY trouble you get in using this repo
 
+## Requirements
+- A USB stick with at least **8 GB** of storage
+- Another computer (Preferably with Linux installed)
+
+## Necessary Knowledge Before Reading
+You will need to know your Chromebook's board name and kernel version to pick a method.
+
+You can see your board name by going to [`chrome://version`](chrome://version):
+
+![Partial chrome://version screenshot, with the baseboard "`dedede`" visible and a red arrow pointing to the baseboard name.](/images/arrow_to_baseboard_in_chrome-version.png)
+
+or more complicatedly, find your customization ID in the "Diagnostics" app and search it at [crOS.tech](https://cros.tech/):
+
+![Partial Diagnostics app screenshot, with the text "`sasukette, version 150.16700.0`" visible, and a red arrow pointing to said text.](/images/arrow_to_customID_in_diag.png)
+
+![Partial crOS.tech screenshot, with the text "`sasukette`" already written inside the search bar.](/images/searching_sasukette_in_crOS.tech.png)
+
+![Partial crOS.tech screenshot, with Chrome's URL bar visible on top, with the URL [cros.tech/device/sasukette/](https://cros.tech/device/sasukette/), and a red arrow pointing to the text "BOARD: DEDEDE" in the contents of the crOS.tech page.](/images/arrow_to_baseboard_in_crOS.tech.png)
+
+## Unenrollment Methods
+
+### KV1: SH1MMER
+1. Open [crOS.download's RMA Shims page](https://cros.download/shims)
 
 > [!NOTE]
 > REQUIRMENTS: A USB WITH 8GB+ STORAGE, AND ANOTHER COMPUTER
