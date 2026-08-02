@@ -32,7 +32,7 @@ or more complicatedly, find your customization ID in the "Diagnostics" app and s
 
 ![Partial crOS.tech screenshot, with the text "`sasukette`" already written inside the search bar.](/images/searching_sasukette_in_crOS.tech.png)
 
-![Partial crOS.tech screenshot, with Chrome's URL bar visible on top, with the URL [cros.tech/device/sasukette/](https://cros.tech/device/sasukette/), and a red arrow pointing to the text "BOARD: DEDEDE" in the contents of the crOS.tech page.]
+![Partial crOS.tech screenshot, with Chrome's URL bar visible on top, with the URL [cros.tech/device/sasukette/](https://cros.tech/device/sasukette/), and a red arrow pointing to the text "BOARD: DEDEDE" in the contents of the crOS.tech page.](/images/arrow_to_baseboard_in_crOS.tech.png)
 
 ## Unenrollment Methods
 
