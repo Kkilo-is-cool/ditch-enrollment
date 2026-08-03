@@ -13,7 +13,8 @@ A guide on how to unenroll Chromebooks with different kernel versions.
 * [Links](#links)
 
 > [!WARNING]
-> I am not held responsible for ANY trouble you get in using this repo
+> I am not held responsible for ANY trouble you get in by using the information in this repo,
+> that is your problem and yours only.
 
 ## Requirements
 - A USB stick with at least **8 GB** of storage
@@ -33,6 +34,8 @@ or more complicatedly, find your customization ID in the "Diagnostics" app and s
 ![Partial crOS.tech screenshot, with the text "`sasukette`" already written inside the search bar.](/images/searching_sasukette_in_crOS.tech.png)
 
 ![Partial crOS.tech screenshot, with Chrome's URL bar visible on top, with the URL [cros.tech/device/sasukette/](https://cros.tech/device/sasukette/), and a red arrow pointing to the text "BOARD: DEDEDE" in the contents of the crOS.tech page.](/images/arrow_to_baseboard_in_crOS.tech.png)
+
+You can see your kernel version by... (TODO)
 
 ## Unenrollment Methods
 
