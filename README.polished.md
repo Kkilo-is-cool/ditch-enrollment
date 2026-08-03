@@ -53,7 +53,7 @@ You can see your kernel version by... (TODO)
 
 5. You'll now need to flash the shim to a USB stick. This can be done with any program that takes in ISOs, since `.bin`s, `.img`s and `.iso`s are all the same in this situation. (don't take this at face value!) You can use [Rufus](https://rufus.ie), [Balena Etcher](https://etcher.balena.io/), or if you did this process on a Chromebook with unblocked extensions, you can use the [Chromebook Recovery Utility](https://chromewebstore.google.com/detail/chromebook-recovery-utili/pocpnlppkickgojjlmhdmidojbmbodfm).
 
-6. After the USB stick is fully flashed, you'll connect the newly-flashed USB stick to your Chromebook (if it isn't already), and boot into the shim. The process is simple, you'll first enter Recovery Mode by pressing `Esc+⟳+⏻` (`Esc +  Refresh + Power`), then enter Developer Mode (`Ctrl+D` → `Enter`). If all goes well, you should see this screen:
+6. After the USB stick is fully flashed, you'll connect the newly-flashed USB stick to your Chromebook (if it isn't already), and boot into the shim. The process is simple, you'll first enter Recovery Mode by pressing `Esc + ⟳ + ⏻` (`Esc +  Refresh + Power`), then enter Developer Mode (`Ctrl + D` → `Enter`). If all goes well, you should see this screen:
 
 ![An image of the "Developer Mode is blocked by policy" screen](/images/dev_mode_is_disabled_by_policy.jpeg)
 
@@ -109,73 +109,63 @@ There are five methods, : https://github.com/crosbreaker/badbr0ker or Visit http
 
 
 # Credits:
-# Mercury Workshop Team, ading2210, FWNavy, BinBashBannana, Kkilobyte and Crosbreaker
-
+- The Mercury Workshop team
+- ading2210
+- FWNavy
+- BinBashBanana
+- Crosbreaker
+- Kkilobyte
+- sophb.chan (for the guide polish)
 
 # QUESTIONS:
 
-## What Kernver and ChromeOS version do I have?
+## What KV and ChromeOS version do I have?
 
-# *(You can find your Kernver version by pressing, esc+refresh+power and pressing Tab, Its the line that reads: tpm_kernver=0x00010004, if it reads that, Then Your Kernver is 4, and for your chromeos version you just have to press, Alt+V on then sign-in screen and you'll see your version.)*
+→ You can find your KV by entering recovery and pressing Tab. The `tpm_kernver` line includes your KV, and the important number is the last one. If your `tpm_kernver` reads `0x00010004`, then your KV will be 4, and similarly, `0x00010007` for KV7.
 
+## What should I do After Unenrolling?
 
+→ I would use [MurkMod](https://github.com/rainestorme/murkmod) after unenrolling successfully, because MurkMod spoofs the fact that the Chromebook isn't enrolled. If you don't use MurkMod after unenrolling, you run the risk of your sysadmin figuring out that you've unenrolled your Chromebook.
 
-# And What should I do After Unenrolling?
-
-
-
-# ANSWER: I WOULD USE MURKMOD AFTER UNENROLLING SUCCESFULLY BECAUSE MURKMOD SPOOFS THE FACT THAT THE CHROMEBOOK GOT UNENROLLED, BECAUSE IF YOU DON'T USE MURKMOD AFTER UNENROLLING YOUR SYSADMIN WILL PROBABLY FIGURE OUT THAT THE CHROMEBOOK IS UNENROLLED FROM THE GOOGLE ADMIN CONSOLE
-(MURKMOD LINK: https://github.com/rainestorme/murkmod)
-
-
-
-# What even is Keyrolling?
-
-
-# So Keyrolling is where newer boardnames, (Like Nissa) are like LOCKED DOWN so you can't just like unenroll without Newer Methods (Like BadSH1mmer) and stuff like that# So Keyrolling is where newer boardnames, (Like Nissa) are like LOCKED DOWN so you can't just like unenroll without Newer Methods (Like BadSH1mmer) and stuff like that
+## What even is "keyrolling"?
+→ Keyrolling is where newer baseboards (e.g. `nissa`) don't allow booting shims, so if you tried to use SH1MMER for example, you'd run into a screen saying that the "Recovery image does not contain ChromeOS", so you can't unenroll without newer methods, like BadSH1MMER.
 
 # Payloads
 
-# SH1MMER and Br0ker
+## SH1MMER and Br0ker
 
-<img width="1366" height="768" alt="sh1mmer" src="https://github.com/user-attachments/assets/dca4aabf-6caa-4037-bb6b-791ee3f2ddfd" />
+![Screenshot of the SH1MMER Payloads menu screen](https://github.com/user-attachments/assets/dca4aabf-6caa-4037-bb6b-791ee3f2ddfd)
 
-# BadRecovery or (OlyBmmer)
+## BadRecovery (a.k.a. OlyBmmer)
 
+![Handheld picture of the BadRecovery menu, post-installation](https://github.com/user-attachments/assets/67461f1c-d6e1-4728-8f4f-41bda4aedfc3)
 
-<img width="3024" height="4032" alt="badrecovery" src="https://github.com/user-attachments/assets/67461f1c-d6e1-4728-8f4f-41bda4aedfc3" />
-
-# Links 
-# (Kept for Archival Purposes)
-
-# SH1MMER: https://github.com/MercuryWorkshop/sh1mmer
-# Cryptosmite: https://github.com/FWNavy/CryptoSmite
-# DAUB: https://dl.snerill.org/Daub
-# OlyBmmer: https://github.com/BinBashBanana/badrecovery
-# Icarus: https://github.com/cosmicdevv/Icarus-Lite]
-# Br0ker: https://github.com/ading2210/sh1mmer/releases/tag/2025.9.19
-# Quicksilver: https://dl.snerill.org/QuickSilver
+# Links (kept for archival purposes)
+**SH1MMER**: https://github.com/MercuryWorkshop/sh1mmer
+**Cryptosmite**: https://github.com/FWNavy/CryptoSmite
+**DAUB**: https://dl.snerill.org/Daub
+**BadRecovery/OlyBmmer** https://github.com/BinBashBanana/badrecovery
+**Icarus**: https://github.com/cosmicdevv/Icarus-Lite
+**Br0ker**: https://github.com/ading2210/sh1mmer/releases/tag/2025.9.19
+**QuickSilver**: https://dl.snerill.org/QuickSilver
 
 # USB-less Exploits:
 
-# KERNVER 1, REQUIRES ChromeOS v101 and below: SHroot
-1. open crosh, (ctrl+alt+t)
-2. paste the following in:
-3. ```set_cellular_ppp \';dbus-send${IFS}--system${IFS}--print-reply${IFS}--dest=org.chromium.SessionManager${IFS}/org/chromium/SessionManager${IFS}org.chromium.SessionManagerInterface.ClearForcedReEnrollmentVpd;exit;\'```
-4. press enter
-5. Just like this:
+## KV1, requires ChromeOS v101 and below: SHroot
+1. Open crosh (`Ctrl + Alt + T`)
+2. Paste the following command: `set_cellular_ppp \';dbus-send${IFS}--system${IFS}--print-reply${IFS}--dest=org.chromium.SessionManager${IFS}/org/chromium/SessionManager${IFS}org.chromium.SessionManagerInterface.ClearForcedReEnrollmentVpd;exit;\'`
+4. Run the command
+Just like this:
 
-6. <img width="1217" height="216" alt="crosh-rootesc" src="https://github.com/user-attachments/assets/9ab2be14-337d-468a-bcc6-ee9a950e42f4" />
-
-
+![An image of the crosh terminal, with the command from Step 2 inserted but not executed.](https://github.com/user-attachments/assets/9ab2be14-337d-468a-bcc6-ee9a950e42f4)
 
 ## ChromeOS v129 and below - BadApple + Icarus
 Basically, this abuses both BadApple and Icarus, all without a USB flash drive (unless you need to downgrade). BadApple is an exploit in Ti50/2023+ devices that abuses the Internet Recovery to access a root shell, from which you can use Icarus.
 1. Ensure you on on ChromeOS v129 or lower, if you are on KV4, downgrade to a version like v126, if you are on v132, this will not work.
-2. Enter recovery using Esc+refresh+Pwr. If you downgraded from ChromeOS v132, go to Options, then select `Internet Recovery (old)`. If you did not downgrade, just select normal `Internet Recovery`.
+2. Enter recovery using `Esc + ⟳ + ⏻` (`Esc + Refresh + Power`). If you downgraded from ChromeOS v132, go to Options, then select `Internet Recovery (old)`. If you did not downgrade, just select normal `Internet Recovery`.
 3. Wait for MiniOS to load, then go through the setup process until you get to Wi-Fi setup. Here you need to login to a Wi-Fi network, and then STOP.
-4. Now you press Ctrl+Alt+F3, if it shows a black screen, repeat step 2 but open `Internet Recovery (old)`.
-5. On an Android or Linux device, use Termux/Terminal to host Icarus_
+4. Now you press `Ctrl + Alt + F3`, if it shows a black screen, repeat Step 2 but open `Internet Recovery (old)`.
+5. On an Android or Linux device, use Termux/Terminal to host Icarus.
 
 
 
@@ -184,12 +174,13 @@ CRSH2TTY has been patched! It will no longer work for ANY Chromebook because it 
 
 CRSH2TTY is a very funny exploit. It's a cool universal USB-less exploit that should not even work at all yet it has been tested on many devices, including new ones like `nissa craaskbowl` or `dedede boten` to extremely old ones like `peppy` or `clapper`. No one is exactly sure how this works, but it requires two 2-second waits and then one 15-hour wait to work.
 
-1. Powerwash using `ctrl+shift+q+q` and then `ctrl+alt+shift+r`. If this doesn't work, press `esc+⟳+⏻ ` (`esc+refresh+power`) and then `ctrl+d`, and then `enter`.
+1. Powerwash using `Ctrl + Shift + Q` (x2) and then `Ctrl + Alt + Shift + R`. If this doesn't work, press `Esc + ⟳ + ⏻ ` (`esc+refresh+power`) and then `Ctrl + D`, and then `Enter`.
 2. Proceed through ChromeOS setup as normal.
-3. When it starts to enroll, wait 2 seconds then restart by preforming an EC reset by pressing `⟳+⏻ ` (`refresh+power`).
-4. When it starts to enroll again, wait 2 seconds and press the recovery shortcut, `esc+⟳+⏻ ` (`esc+refresh+power`) then `⏻ ` (`power`) to turn it off.
+3. When it starts to enroll, wait 2 seconds then restart by preforming an EC reset by pressing `⟳ + ⏻ ` (`Refresh + Power`).
+4. When it starts to enroll again, wait 2 seconds and press the recovery shortcut, `Esc + ⟳ + ⏻ ` (`Esc + Refresh + Power`) then `⏻` (`Power`) to turn it off.
 5. Leave it off for ***15 hours*** or more.
 6. Once 15 hours is up, turn on the Chromebook. You should be greeted at the `Welcome to your Chromebook` screen, you should already be connected to Wi-Fi, so press `Get started`.
 7. On the `Get connected` screen, just press `Next`, you should see `Getting your device ready`, wait on this screen, and then you should see `Choose your Chromebook's setup`. 
 9. Hooray!!!
-<img src="/img/tutorial/craaskbowl-unroll-google.png" width="400">
+
+![An image of a ChromeOS setup screen.](/images/craaskbowl-unenroll-google.png)
