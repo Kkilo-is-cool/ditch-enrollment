@@ -93,7 +93,8 @@ There are five methods, : https://github.com/crosbreaker/badbr0ker or Visit http
 > DEDEDEICARUS IS ONLY FOR KEYROLLED DEDEDE CHROMEBOOKS IF YOUR CHROMEBOOK IS NOT A DEDEDE BOARD, THEN DEDEDEICARUS IS NOT FOR YOUR CHROMEBOOK
 # INSTRUCTIONS ARE ON HERE: https://github.com/crosbreaker/dededeicarus
 
-
+# I THINK TS WORKS ON KERNVER 7:
+# PREBUILTS: [Cr3nroll](https://github.com/CrOSmium/cr3nroll-shim/releases/tag/Prebuilts)
 
 # Credits:
 # Mercury Workshop Team, ading2210, FWNavy, BinBashBannana, Kkilobyte and Crosbreaker
