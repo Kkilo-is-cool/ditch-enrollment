@@ -133,6 +133,11 @@ There are five methods, : https://github.com/crosbreaker/badbr0ker or Visit http
 
 <img width="3024" height="4032" alt="badrecovery" src="https://github.com/user-attachments/assets/67461f1c-d6e1-4728-8f4f-41bda4aedfc3" />
 
+# Cr3nroll
+
+<img width="1052" height="386" alt="image" src="https://github.com/user-attachments/assets/47ca2b2d-683b-41ca-a8cc-ed3484226f19" />
+
+
 # Links 
 # (Kept for Archival Purposes)
 
@@ -143,6 +148,8 @@ There are five methods, : https://github.com/crosbreaker/badbr0ker or Visit http
 # Icarus: https://github.com/cosmicdevv/Icarus-Lite]
 # Br0ker: https://github.com/ading2210/sh1mmer/releases/tag/2025.9.19
 # Quicksilver: https://dl.snerill.org/QuickSilver
+# Cr3nroll: https://github.com/CrOSmium/Cr3nroll
+
 
 # USB-less Exploits:
 
